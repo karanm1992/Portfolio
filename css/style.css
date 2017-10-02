@@ -1,0 +1,236 @@
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+	background-color: darkslategrey;
+}
+
+a {
+    text-decoration: none !important;
+	color: seashell;
+}
+
+.pageDiv  {
+	margin-left: 200px;
+	margin-top: 20px;
+}
+
+.pageHeader {
+	font-family: inherit;
+	font-size: 45px;
+	color: #0343ff;  /* 0383f9 */  /*0343ff*/    
+	/*font-weight: bold;
+	font-style: italic; */
+}
+
+#headLinks {
+	padding-top: 5px;
+    margin-top: 0px;
+    width: 100%;
+    height: 78px;
+    /* border-left: 10px solid black; */
+    /* background-color: rgb(21, 93, 233); */
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#footer {
+	width: 100%;
+    height: 78px;
+	text-align: center;
+    border-radius: 5px;
+    background-color: black;
+	position:absolute;
+	bottom:0;
+	color:white;
+}
+
+#cpr {
+	padding-top:12px;
+	font-size: 17px;
+}
+
+#links {
+  list-style-type: none;
+}
+
+.link {
+    border-radius: 16px;
+    padding-top: 7px;
+    /* background: white; */
+    /* border: 2px solid white; */
+    width: 125px;
+    height: 27px;
+    float: right;
+    margin-right: 25px;
+    
+	
+}
+
+.linkAnchor {
+	color: white;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.linkAnchor:hover{
+	transition: color .5s ease-in-out;
+	/*color: #39e600;*/
+	
+}
+
+/*-------------Name and desc---------------*/
+
+#homeContent {
+	margin-left : 200px;
+}
+
+#name {
+    margin-top: 20px;	
+	text-align: left;
+	font-family: inherit;
+	font-size: 65px;
+	color: #0343ff;  /* 0383f9 */  /*0343ff*/    
+	font-weight: bold;
+	font-style: italic;
+}
+
+#desc {
+	width: 740px;
+	font-size: 26px;
+	margin-top: 30px;
+	color: seashell; /*seashell*/
+}
+
+#resume {
+	border: 1px solid #0383f9;
+	width: 200px;
+	font-size: 20px;
+	height: 40px;
+	text-align: center;
+	padding-top: 12px;
+	border-radius: 10px;
+	color: seashell;
+	background-color: #0383f9;	
+	margin-top: 33px;
+}
+
+.icons {
+	position: absolute;
+	float: right;
+	bottom: 6px;
+	right: 50px;
+}	
+/*-----------------WORK----------------------*/
+
+#work {
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 55px;
+}
+
+button.accordion {
+    background-color: #0F0F0F; 
+	color: #fff;
+    /*color: #444; */
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #aaa;
+}
+
+button.accordion:after {
+    content: '\002B';
+  /*  color: #777; */
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+
+/*----------------SKILLS---------------------*/
+
+td > img {
+ height: 100px;
+ width: 100px;
+}
+
+/*----------------ACITIVITY---------------------*/
+
+#activity {
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 55px;
+}
+
+/*----------------CONTACT---------------------*/
+#contact {
+	margin-left: 0px  /*put to override .pageDiv margin and effectively center*/
+	
+}
+
+#contactForm {
+	border: 1px solid;
+	width: 30%;
+	background-color: #0F0F0F;
+	margin: auto;
+	padding-left: 140px;
+	padding-right: 100px;
+	padding-top: 30px;
+    padding-bottom: 47px;
+	margin-top: 40px;
+}
+
+.contactInput {
+	width: 230px;
+	height: 30px;
+	border: 1px solid grey;
+	border-radius: 3px;
+	margin-bottom: 30px;
+}
+
+.inputLabel {
+	width: 50px;
+}
+
+#contactSubmitBtn {
+	border: 1px solid #0383f9;
+	width: 200px;
+	font-size: 20px;
+	height: 30px;
+	text-align: center;
+	padding-top: 5px;
+	border-radius: 10px;
+	color: seashell;
+	background-color: #0383f9;
+}
+
+div#contactForm  > div > div > label {
+	width: 200px;
+	color: #fff;
+	font-size: 25px;
+}
+
+div#contactForm > div > div > input {
+	margin-left: 50px;
+}

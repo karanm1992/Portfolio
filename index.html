@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" ng-app = "app">
+<head>
+  <meta charset="utf-8">
+  <title>Karan Mitra</title>
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-route.js"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/app.js"></script>
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="assets/images/icons8-Developer-48.png" type="image/x-icon">
+ 
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  
+</head>
+
+<body ng-controller = "mainController">
+
+	<div id="headLinks"> 
+		<ul id = "links">
+		<!--	<div id = "contactLink" class="link"> <li> <a class="linkAnchor" href="#contact" > CONTACT </a> </li></div> -->
+			<div id = "activityLink" class="link"> <li> <a class="linkAnchor" href="#activity" > ACTIIVITES </a> </li></div>
+			<div id = "skillsLink" class="link"> <li> <a class="linkAnchor" href="#skills" > SKILLS </a> </li></div>
+			<div id = "workLink" class="link"> <li> <a class="linkAnchor" href="#work" > EXPERIENCE </a> </li></div>
+			<div id = "homeLink" class="link"> <li> <a class="linkAnchor" href="#" > HOME </a> </li></div>		
+		</ul>	
+	</div>
+	  
+	 <div id = "container" >  
+	 
+	    <div ng-view></div>
+		
+	 </div>
+
+<!-- hitwebcounter Code START -->
+<a href="http://www.hitwebcounter.com" target="_blank" style = "visibility : hidden" >
+<img src="http://hitwebcounter.com/counter/counter.php?page=6767242&style=0008&nbdigits=5&type=ip&initCount=0" title="Counter for tumblr" Alt="Counter for tumblr"   border="0" >
+</a>                                        <br/>
+                                        <!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com" title="Website Stats" 
+                                        target="_blank" style="font-family: Geneva, Arial, Helvetica, sans-serif; 
+                                        font-size: 10px; color: #63766C; text-decoration: none ; visibility : hidden"><strong>Website Stats                                        </strong>
+                                        </a>   
+                              
+
+	<div id = "footer">
+		<center><p id = "cpr"> Copyright (c) 2017 Karan Mitra </p></center>
+		<span class = "icons"> 
+			<a href = "https://www.facebook.com/karan.mitra" target="_blank"> 
+				<img src = "assets/images/Facebook.png" style = "transform : scale(0.54)"/> 
+			</a>
+			
+			<a href = "https://www.linkedin.com/in/karan-mitra-531b1175" target="_blank"> 
+				<img src = "assets/images/Linkedin.png" style = "transform : scale(0.54)"/> 
+			</a>
+			
+			<a href = "#" target="_blank">
+				<img src = "assets/images/GitHub.png" style = "transform : scale(0.54)"/>  	
+			</a>
+			
+			<a href = "mailto:karanmitra@csus.edu" target="_blank"> 
+				<img src = "assets/images/email.png" style = "transform : scale(0.68)"/> 		
+			</a>
+		 </span>
+	</div>
+</body>
+
+
+</html>
